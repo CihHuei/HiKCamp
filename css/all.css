@@ -147,7 +147,7 @@ body {
 .container .maincontent nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   display: block;
   padding: 30px 40px;
@@ -221,18 +221,18 @@ body {
   }
 }
 .container .maincontent .wrap .title h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   margin: 20px 0 50px 0;
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .title h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .title h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -255,7 +255,7 @@ body {
   }
 }
 .container .maincontent .wrap .title p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -267,7 +267,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .title p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 .container .maincontent .wrap .introduction {
@@ -332,21 +332,21 @@ body {
   }
 }
 .container .maincontent .wrap .introduction .intro_item .txt h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .introduction .intro_item .txt h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .introduction .intro_item .txt h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 .container .maincontent .wrap .introduction .intro_item .txt p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -358,7 +358,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .introduction .intro_item .txt p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -638,6 +638,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  padding: 20px;
 }
 @media screen and (max-width: 768px) {
   .index_container .index_wrap .btn a {
@@ -764,7 +765,7 @@ body {
 }
 .container .maincontent .wrap table tr .rwd_col1 {
   display: none;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -776,7 +777,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap table tr .rwd_col1 {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 568px) {
@@ -868,7 +869,7 @@ body {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 820px) {
   .container .maincontent .wrap .people_1 .people_item .pic, .container .maincontent .wrap .people_2 .people_item .pic {
     width: 100%;
   }
@@ -894,21 +895,16 @@ body {
             flex-direction: column;
   }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 820px) {
   .container .maincontent .wrap .people_1 .people_item .txt, .container .maincontent .wrap .people_2 .people_item .txt {
     clear: both;
     padding-left: 0;
   }
 }
 .container .maincontent .wrap .people_1 .people_item .txt .txt_left h3, .container .maincontent .wrap .people_2 .people_item .txt .txt_left h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   padding: 30px 0 60px 0;
-}
-@media screen and (max-width: 768px) {
-  .container .maincontent .wrap .people_1 .people_item .txt .txt_left h3, .container .maincontent .wrap .people_2 .people_item .txt .txt_left h3 {
-    font-size: 25px;
-  }
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .people_1 .people_item .txt .txt_left h3, .container .maincontent .wrap .people_2 .people_item .txt .txt_left h3 {
@@ -925,17 +921,9 @@ body {
   font-weight: 400;
   padding: 10px 0 30px 0;
 }
-.container .maincontent .wrap .people_1 .people_item .txt .txt_right, .container .maincontent .wrap .people_2 .people_item .txt .txt_right {
-  padding-top: 5px;
-}
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .people_1 .people_item .txt .txt_right, .container .maincontent .wrap .people_2 .people_item .txt .txt_right {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container .maincontent .wrap .people_1 .people_item .txt .txt_right, .container .maincontent .wrap .people_2 .people_item .txt .txt_right {
-    display: block;
   }
 }
 .container .maincontent .wrap .people_1 .people_item .txt .txt_right p, .container .maincontent .wrap .people_2 .people_item .txt .txt_right p {
@@ -956,10 +944,11 @@ body {
      -moz-column-gap: 10px;
           column-gap: 10px;
   margin-top: -40px;
+  margin-left: 0;
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .people_1 .people_item .txt .txt_right .pic, .container .maincontent .wrap .people_2 .people_item .txt .txt_right .pic {
-    padding: 13px 0 0 120px;
+    width: 100px;
   }
 }
 .container .maincontent .wrap .people_1 .people_item .txt .txt_right .pic a, .container .maincontent .wrap .people_2 .people_item .txt .txt_right .pic a {
@@ -975,6 +964,7 @@ body {
 }
 .container .maincontent .wrap .people_1 .people_intro, .container .maincontent .wrap .people_2 .people_intro {
   margin-left: 150px;
+  margin-top: 100px;
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .people_1 .people_intro, .container .maincontent .wrap .people_2 .people_intro {
@@ -985,18 +975,13 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .people_1 .people_intro, .container .maincontent .wrap .people_2 .people_intro {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 .container .maincontent .wrap .people_1 .people_intro h3, .container .maincontent .wrap .people_2 .people_intro h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   padding-bottom: 30px;
-}
-@media screen and (max-width: 768px) {
-  .container .maincontent .wrap .people_1 .people_intro h3, .container .maincontent .wrap .people_2 .people_intro h3 {
-    font-size: 25px;
-  }
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .people_1 .people_intro h3, .container .maincontent .wrap .people_2 .people_intro h3 {
@@ -1009,7 +994,7 @@ body {
   }
 }
 .container .maincontent .wrap .people_1 .people_intro p, .container .maincontent .wrap .people_2 .people_intro p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -1023,7 +1008,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .people_1 .people_intro p, .container .maincontent .wrap .people_2 .people_intro p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -1069,28 +1054,23 @@ body {
   }
 }
 .container .maincontent .wrap .location .location_txt .txt_top h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .location .location_txt .txt_top h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .location .location_txt .txt_top h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 .container .maincontent .wrap .location .location_txt .txt_bottom h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   color: #f39800;
-}
-@media screen and (max-width: 768px) {
-  .container .maincontent .wrap .location .location_txt .txt_bottom h3 {
-    font-size: 25px;
-  }
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .location .location_txt .txt_bottom h3 {
@@ -1098,7 +1078,7 @@ body {
   }
 }
 .container .maincontent .wrap .location .location_txt .txt_bottom p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -1110,7 +1090,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .location .location_txt .txt_bottom p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 .container .maincontent .wrap .location .map {
@@ -1146,17 +1126,17 @@ body {
 }
 .container .maincontent .wrap .hotel h2 {
   margin-bottom: 100px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .hotel h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .hotel h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1210,16 +1190,11 @@ body {
   }
 }
 .container .maincontent .wrap .hotel .hotel_item .txt .txt_top h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
 }
-@media screen and (max-width: 768px) {
-  .container .maincontent .wrap .hotel .hotel_item .txt .txt_top h3 {
-    font-size: 25px;
-  }
-}
 .container .maincontent .wrap .hotel .hotel_item .txt .txt_top p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -1231,11 +1206,11 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .hotel .hotel_item .txt .txt_top p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 .container .maincontent .wrap .hotel .hotel_item .txt .txt_bottom p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -1247,7 +1222,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .hotel .hotel_item .txt .txt_bottom p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 .container .maincontent .wrap .hotel .hotel_item .btn {
@@ -1324,21 +1299,21 @@ body {
   text-decoration: none;
 }
 .container .maincontent .wrap .faq .faq_item .Q a h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 @media screen and (max-width: 1680px) {
   .container .maincontent .wrap .faq .faq_item .Q a h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .faq .faq_item .Q a h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 .container .maincontent .wrap .faq .faq_item .A p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1.5em;
   margin-top: 20px;
@@ -1353,7 +1328,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .maincontent .wrap .faq .faq_item .A p {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 768px) {
