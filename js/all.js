@@ -57,10 +57,10 @@ $(".Q a").click(function (e) {
 
 $(".index_wrap .btn a").hover(function () {
     // over
-    $(this).find("img").attr("src","../img/enter_2.png")
+    $(this).find("img").attr("src","img/enter_2.png")
   }, function () {
     // out
-    $(this).find("img").attr("src","../img/enter.png")
+    $(this).find("img").attr("src","img/enter.png")
   }
 );
 
