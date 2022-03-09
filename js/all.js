@@ -68,6 +68,7 @@ $(".index_wrap .btn a").hover(function () {
 
 
 
+
 $(".burger_btn a").click(function (e) { 
   $(".small_nav_container").addClass("active")
 });
