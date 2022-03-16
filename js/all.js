@@ -81,7 +81,22 @@ $(".index_container").click(function (e) {
 });
 
 
+$(function() {
+  /* 按下GoTop按鈕時的事件 */
+  $(".top_btn a").click(function(){
+    console.log($('html,body').scrollTop());
+    $('html,body').animate({"scrollTop":0});
+});
 
+  /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+  $(window).scroll(function() {
+      if ( $(this).scrollTop() > 500){
+          $(".top_btn a").fadeIn();
+      } else {
+          $(".top_btn a").fadeOut();
+      }
+  });
+});
 
 
 
