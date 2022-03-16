@@ -98,7 +98,10 @@ $(function() {
 
 
 
-
+$(".index_wrap .btn a img").click(function(){
+  window.open($(this).parent().attr('href'));
+  return false;
+})
 
 
 });
